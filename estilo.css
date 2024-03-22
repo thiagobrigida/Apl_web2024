@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Inter';
+}
+:root{
+    --primary: #2B0F7B
+    --secondary: #B70000
+    --black: #000000   
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: var(--primary);
+    border-bottom-width: 0.5rem;
+    border-bottom-style: solid;
+    height: 5rem;
+}
+header img{
+    display: flex;
+    align-items: center;
+}
+header nav a {
+    display: flex;
+    alingn-items: center;
+}
